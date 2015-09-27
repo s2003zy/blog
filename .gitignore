@@ -27,5 +27,5 @@ build/Release
 node_modules
 
 #bower
-#bower_components
+bower_components
 
