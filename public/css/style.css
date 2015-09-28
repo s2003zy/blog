@@ -4,6 +4,15 @@ body {
   background-color: #38373A;
   color: #ECECED
 }
+
+.name-signature {
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+    font-size: 50px;
+}
+
 .centered {
     position: fixed; /* or absolute */
     top: 50%;
@@ -16,3 +25,4 @@ body {
 a {
   color: #00B7FF;
 }
+
