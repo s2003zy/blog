@@ -1,6 +1,12 @@
 extends layout
 
 block content
-  div.centered
-    h1.name-signature= title
-    p.name-signature.right Back soon ~~
+  div#name-signature.centered-fixed
+      div.animated.animated.zoomIn
+          div.centered-text
+            img.avatar-img(src="/images/avatar.png")
+          div.centered-text
+            h1 #{title}
+            p Back-End Developer
+            p Back Sonn
+
