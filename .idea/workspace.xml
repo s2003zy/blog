@@ -123,7 +123,7 @@
         <entry file="file://$PROJECT_DIR$/views/work.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.12605043" vertical-offset="0" max-vertical-offset="595">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -806,7 +806,7 @@
     <entry file="file://$PROJECT_DIR$/views/work.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12605043" vertical-offset="0" max-vertical-offset="595">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
           <folding />
         </state>
       </provider>
