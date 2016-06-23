@@ -45,3 +45,10 @@ a {
   color: #00B7FF;
 }
 
+.contact .nav li{
+    font-size: 25px;
+    padding: 8px 15px;
+    list-style: none;
+    float: left;
+    color:#fff;
+}
