@@ -1,12 +1,7 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #38373A;
-  color: #ECECED
-}
+/**** common style ****/
 
-#name-signature {
-    font-family: 'Dancing Script', cursive;
+.right {
+    float: right;
 }
 
 .centered-fixed {
@@ -16,36 +11,86 @@ body {
     transform: translate(-50%, -50%);
 }
 
-
-.right {
-    float: right;
+.centered-text {
+    text-align:center;
 }
-
 
 .avatar-img{
     width:63px;
     height:63px;
     border-radius:50px;
-
 }
 
-.centered-text {
-    text-align:center;
+body {
+    background-color: #ffffff;
+    margin: 0;
 }
 
-h1 {
+
+/**** main page style ****/
+
+.main-page {
+    text-align: center;
+    background-color: blue;
+}
+
+/**** header page style ****/
+
+.header {
+    position:relative;
+    height: 370px;
+    background-image: url("/images/img-header.jpg");
+    background-position: center 35%;
+}
+
+.header .header-wapper {
+    position: absolute;
+    margin: auto;
+    left: 0; bottom: 35px; right: 0;
+}
+
+.header a {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.header h4 {
+    font-size: 26px;
+    color: #ffffff;
+}
+/**** content page style ****/
+
+.content {
+    background-color: pink;
+}
+
+
+/**** footer page style ****/
+
+.footer {
+    background-color: teal;
+}
+
+
+/**** index page style ****/
+
+#name-signature {
+    font-family: 'Dancing Script', cursive;
+}
+
+.index-page h1 {
     font-size: 50px;
 }
 
-p {
+.index-page p {
     font-size: 28px;
 }
 
-a {
+.index-page a {
   color: #00B7FF;
 }
 
-.contact .nav li{
+.index-page .contact .nav li{
     font-size: 25px;
     padding: 8px 15px;
     list-style: none;
