@@ -4,6 +4,9 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+// connect to mongoDB
+var db = require('monk')('localhost:27017/blog')
+
 var routes = require('./routes/index');
 
 var app = express();
@@ -18,11 +21,16 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-
-app.get('/', function(req, res, next) {
-    res.render('index', { title: 'Zhiyang Song' });
+// append db to request
+app.use(function(req, res, next) {
+    req.db = db;
+    next();
 });
 
+
+app.get('/', function(req, res) {
+    res.render('index', { title: 'Zhiyang Song' });
+});
 
 app.use('/main', routes.main);
 
